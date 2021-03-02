@@ -1,0 +1,1120 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.conteiner{
+    max-width: 100%;
+    margin: 0 auto;
+}
+/*----Header---------------------------------------*/
+.buttonSearch{
+    border: none;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+}
+.conteinerHeader{
+    display: grid; 
+    grid-template-columns: 373px auto 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Logo{
+    display: grid;
+    align-self: center;
+}
+.liMenu{
+    display: grid;
+    align-items: center;
+    border: 2px solid transparent;
+}
+.ulMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.menuuu{
+    display: grid; 
+    padding-top: 15px;  
+}
+.lupaSearch{
+    display: grid;
+    
+}
+.aMenu{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #777777;
+    text-decoration: none;
+    display: grid;
+    text-align: center;
+}
+.aMenu:hover{
+    color: black;
+}
+.buttonSearch{
+    display: grid;
+    width: 48px;
+    height: 48px;
+}
+.search{
+    display: grid;
+    justify-self: end;
+    width: 60px;
+    align-self: center;
+    padding-top: 5px;
+}
+
+/*-----------Slider-------------------------------------------*/
+.conteinerSlider{
+    background-image: url("slider.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    display: grid;
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+.mainTitle{
+    width: 700px;
+    height: 57px;
+    background-color: black;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+.title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    display: grid;
+    align-self: center;
+}
+.minFreelancePortfolio{
+    width: 473px;
+    height: 32px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+.secondTitle{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+    display: grid;
+    align-self: center;
+}
+/*------------------------Categories---------------------*/
+.conteinerCategories{
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.categories{
+    display: grid;
+    grid-template-columns: 271px 273px 184px; 
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+}
+.firstCategories{
+    display: grid;
+    grid-template-columns: 60px 11px 70px 11px 119px;
+    justify-items: center;
+    justify-self: center;
+}
+.middleCategories{
+    display: grid;
+    grid-template-columns: 11px 122px 11px 118px 11px;
+    justify-items: center;
+    justify-self: center;
+}
+.secondCategories{
+    display: grid;
+    grid-template-columns: 64px 11px 109px;
+    justify-items: center;
+    justify-self: center;
+}
+.liCategories{
+    display: grid;
+    justify-self: center;
+}
+.aCategories{
+    display: grid;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 24px;
+    justify-self: center;
+}
+.aCategories:hover{
+    color: black;
+}
+.divLine{
+    display: grid;
+    justify-self: center;
+}
+.oblique{
+    display: grid;
+    justify-self: center;
+}
+/*---pictures Conteiner-----------------------------------*/
+.picturesConteiner{
+    filter: drop-shadow(0px -3px 2.5px rgba(163,163,163,0.1));
+    background-color: #fafafa;
+    justify-self: center;
+    display: grid;
+}
+.MainConteiner{
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    padding-bottom: 35px;
+    justify-items: center;
+}
+/*---1---*/
+.imgSabonete{
+    width: 290px;
+    height: 350px;
+}
+.imgSabonete:hover{
+    opacity: 50%;
+}
+.sabonete{
+    background: url("backgroundBlack.png");  
+    height: 350px;
+}
+.imgLamp{
+    width: 290px;
+    height: 250px;
+    margin-bottom: 32px;
+}
+.imgLamp:hover{
+    opacity: 50%;
+}
+.lamp{
+    background: url("backgroundBlack.png");  
+    height: 250px;
+    margin-top: 35px;
+    margin-bottom: 32px;
+}
+.imgTableware{
+    width: 290px;
+    height: 450px;
+}
+.imgTableware:hover{
+    opacity: 50%;
+}
+.tableware{
+    background: url("backgroundBlack.png");  
+    height: 450px;
+}
+/*---2---*/
+.imgFurniture{
+    width: 290px;
+    height: 250px;
+    margin-bottom: 35px;
+}
+.imgFurniture:hover{
+    opacity: 50%;
+}
+.furniture{
+    background: url("backgroundBlack.png");  
+    height: 250px;
+    width: 290px;
+    margin-bottom: 35px;
+}
+.imgTimer{
+    width: 290px;
+    height: 350px;
+}
+.imgTimer:hover{
+    opacity: 70%;
+}
+.timer{
+    background: url("backgroundBlack.png");
+    width: 290px;
+    height: 350px; 
+    margin-bottom: 35px;
+}
+.imgArmchairs{
+    width: 290px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.imgArmchairs:hover{
+    opacity: 50%;
+}
+.armchairs{
+    background: url("backgroundBlack.png");
+    width: 290px;
+    height: 250px; 
+}
+.imgClock{
+    width: 290px;
+    height: 350px;
+}
+.imgClock:hover{
+    opacity: 50%;
+}
+.clock{
+    background: url("backgroundBlack.png");
+    width: 290px;
+    height: 350px;
+    margin-top: 30px; 
+}
+/*---3---*/
+.imgChairsAndTables{
+    width: 290px;
+    height: 450px;
+}
+.imgChairsAndTables:hover{
+    opacity: 50%;
+}
+.chairsAndTables{
+    background: url("backgroundBlack.png");
+    width: 290px;
+    height: 450px;
+}
+.imgCorinne{
+    width: 290px;
+    height: 250px;
+    margin-bottom: 32px;
+}
+.imgCorinne:hover{
+    opacity: 50%;
+}
+.corinne{
+    background: url("backgroundBlack.png");
+    width: 290px;
+    height: 250px;
+    margin-top: 35px;
+}
+.imgIconic{
+    width: 290px;
+    height: 350px;
+}
+.imgIconic:hover{
+    opacity: 50%;
+}
+.iconic{
+    background: url("backgroundBlack.png");
+    width: 290px;
+    height: 350px;
+    margin-top: 32px;
+}
+/*---*/
+.firstSpeaker{
+    display: grid;
+}
+.middleSpeaker{
+    margin-left: 30px;
+    justify-items: center;
+    display: grid;
+}
+.lastSpeaker{
+    margin-left: 60px;
+    display: grid;
+    align-self: flex-start;
+}
+.load{
+    background-color: #959595;
+    border: 1px solid #959595;
+    width: 125px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.buttonLoad{
+    display: grid;
+    justify-items: center;
+    margin-left: 35px;
+    margin-bottom: 73px;
+}
+/*---------------------------------*/
+.lianLastLogo{
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    margin-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+/*------------------footer-------------*/
+.footerSeties{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.seties{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-self: center;
+    justify-items: center;
+}
+.footerAllSeties{
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.aseties{
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgFacebook{
+    width: 10px;
+    height: 15px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgGoogle{
+    width: 14px;
+    height: 15px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgTwitter{
+    width: 13px;
+    height: 12px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgInsta{
+    width: 14px;
+    height: 14px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgDribble{
+    width: 14px;
+    height: 14px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgPinterest{
+    width: 12px;
+    height: 15px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.imgInstagramm{
+    width: 14px;
+    height: 13px;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+}
+.footerText{
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 46px;
+}
+.lastFooterText{
+    width: 500px;
+    height: 15px;
+}
+
+@media(max-width: 767px){
+    .conteinerHeader{
+        grid-template-columns: 150px auto 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .menuuu{
+        justify-items: end; 
+        align-items: center; 
+    }
+    /*.ulMenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }*/
+    /*-----gamburg-menu-------*/
+    .nav-mobile-menu{
+        width: 15px;
+        height: 15px;
+        position: relative;
+    }
+    .nav-mobile-menu span{
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: .25s ease-in-out;
+    }
+    .nav-mobile-menu span:nth-child(1){
+        top: 3px;
+    }
+    .nav-mobile-menu span:nth-child(2){
+        top: 7px;
+    }
+    .nav-mobile-menu span:nth-child(3){
+        bottom: 3px
+    }
+    .hidden-menu{
+        opacity: 0;
+        visibility: hidden;
+        display: block;
+        position: absolute;
+    }
+    .navigation{
+        display: block;
+        position: absolute;
+        /*position: fixed;*/
+        top: 40px;
+        right: 20px;
+        bottom: 0;
+        /*width: 280px;
+        max-width: 280px;*/
+        transition: all 250ms ease-in-out;
+        transform: translateX(150%);
+        text-align: center;
+    }
+    /*active-menu*/
+    .nav-mobile-menu.active-menu span:nth-child(1){
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(2){
+        top: 50%;
+        transform: rotate(-45deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(3){
+        transform: scale(0);
+    }
+    .navigation.active-menu{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        top: 80px;
+        background-color: gray;
+        display: block;
+        position: absolute;
+    }
+    /*------*/
+    .liMenu{
+        display: flex;
+        align-items: center;
+        border: 2px solid transparent;
+    }
+    .ulMenu{
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        width: 180px;
+        padding-top: 20px;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .menuuu{
+        display: grid; 
+        padding-top: 7px;
+        align-self: center;
+    }
+    .aMenu{
+        color: black;
+        justify-self: center;
+        display: grid;
+    }
+    .aMenu:hover{
+        color: white;
+    }
+    /*---------------*/
+    .conteinerSlider{
+        background-image: url("slider.png");
+        background-repeat: no-repeat;
+        background-size: 100% 250px;
+        max-height: 250px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        max-width: 767px;
+    }
+    .mainTitle{
+        width: 270px;
+        height: 30px;
+        background-color: black;
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    .title{
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 3px;
+        line-height: 15px;
+        color: white;
+        text-align: center;
+        display: grid;
+        align-self: center;
+        width: 270px;
+    }
+    .minFreelancePortfolio{
+        max-width: 200px;
+        width: auto;
+        max-height: 100px;
+        height: auto;
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    .secondTitle{
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 3px;
+        line-height: 14px;
+        color: black;
+        text-align: center;
+        display: grid;
+        align-self: center;
+        max-width: 200px;
+        width: auto;
+        height: auto;
+    }
+    /*--------categories-------------*/
+    .conteinerCategories{
+        display: grid;
+        justify-items: center;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        margin-top: 33px;
+        margin-bottom: 33px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: auto;
+    }
+    .categories{
+        display: flex;
+        width: 290px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .middleCategories{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .liCategories{
+        display: flex;
+    }
+    .aCategories{
+        display: flex;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #777777;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    .aCategories:hover{
+        color: black;
+    }
+    .divLine{
+        display: flex;
+    }
+    .oblique{
+        display: flex;
+        height: 30px;
+    }
+    /*------pictures Conteiner------------------------------------------------------------*/
+    .picturesConteiner{
+        display: flex;
+        flex-direction: column;
+        width: 100% auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainConteiner{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 35px;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+    }
+    /*---1---*/
+    .imgSabonete{
+        display: flex;
+        width: 290px;
+        height: 230px;
+    }
+    .sabonete{ 
+        height: 230px;
+        width: 290px;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .imgLamp{
+        width: 290px;
+        height: 150px;
+    }
+    .lamp{  
+        height: 150px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        width: 290px;
+    }
+    .imgTableware{
+        width: 290px;
+        height: 230px;
+    }
+    .tableware{  
+        height: 230px;
+        width: 290px;
+        margin-bottom: 15px;
+    }
+    /*---2---*/
+    .imgFurniture{
+        width: 290px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .furniture{  
+        height: 200px;
+        width: 290px;
+        margin-bottom: 15px;
+    }
+    .imgTimer{
+        width: 290px;
+        height: 270px;
+    }
+    .timer{
+        width: 290px;
+        height: 270px; 
+        margin-bottom: 15px;
+    }
+    .imgArmchairs{
+        width: 290px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .armchairs{
+        width: 290px;
+        height: 200px; 
+        margin-bottom: 15px;
+    }
+    .imgClock{
+        width: 290px;
+        height: 230px;
+    }
+    .clock{
+        width: 290px;
+        height: 230px;
+        margin-top: 0;
+        margin-bottom: 15px; 
+    }
+    /*---3---*/
+    .imgChairsAndTables{
+        width: 290px;
+        height: 250px;
+    }
+    .chairsAndTables{
+        width: 290px;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    .imgCorinne{
+        width: 290px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .corinne{
+        width: 290px;
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .imgIconic{
+        width: 290px;
+        height: 220px;
+    }
+    .iconic{
+        width: 290px;
+        height: 220px;
+        margin-top: 0px;
+    }
+    /*---*/
+    .firstSpeaker{
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+    }
+    .middleSpeaker{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+    }
+    .lastSpeaker{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+    }
+    .load{
+        background-color: #959595;
+        border: 1px solid #959595;
+        width: 125px;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        line-height: 21px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    .buttonLoad{
+        display: flex;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    /*--------------*/
+    .lianLastLogo{
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footerText{
+        padding-top: 16px;
+        padding-bottom: 26px;
+    }
+    .lastFooterText{
+        width: 270px;
+        height: 8px;
+    }
+    
+    
+}
+
+
+@media(min-width: 768px) and (max-width: 992px){
+    .conteinerHeader{
+        display: grid; 
+        grid-template-columns: 148px auto 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .conteinerSlider{
+        height: 450px;
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+    .mainTitle{
+        width: 500px;
+        height: 47px;
+    }
+    .title{
+        font-size: 32px;
+        letter-spacing: 4px;
+        line-height: 20px;
+    }
+    .minFreelancePortfolio{
+        width: 450px;
+        height: 29px;
+    }
+    .secondTitle{
+        font-size: 16px;
+        letter-spacing: 6px;
+        line-height: 20px;
+    }
+    /*---pictures Conteiner---------------------------------*/
+    .MainConteiner{
+        grid-template-columns: 226px 226px 226px;
+        padding-bottom: 35px;
+        justify-items: center;
+        justify-self: center;
+    }
+    /*---1---*/
+    .imgSabonete{
+        width: 226px;
+        height: 250px;
+    }
+    .sabonete{ 
+        height: 250px;
+    }
+    .imgLamp{
+        width: 226px;
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .lamp{
+        height: 150px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+    .imgTableware{
+        width: 226px;
+        height: 350px;
+    }
+    .tableware{
+        height: 350px;
+    }
+    /*---2---*/
+    .imgFurniture{
+        width: 226px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    .furniture{ 
+        height: 150px;
+        width: 226px;
+        margin-bottom: 15px;
+    }
+    .imgTimer{
+        width: 226px;
+        height: 250px;
+    }
+    .timer{
+        width: 226px;
+        height: 250px; 
+        margin-bottom: 15px;
+    }
+    .imgArmchairs{
+        width: 226px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .armchairs{
+        width: 226px;
+        height: 150px; 
+    }
+    .imgClock{
+        width: 226px;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    .clock{
+        width: 226px;
+        height: 250px;
+        margin-top: 10px; 
+    }
+    /*---3---*/
+    .imgChairsAndTables{
+        width: 226px;
+        height: 350px;
+    }
+    .chairsAndTables{
+        width: 226px;
+        height: 350px;
+    }
+    .imgCorinne{
+        width: 226px;
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .corinne{
+        width: 226px;
+        height: 150px;
+        margin-top: 15px;
+    }
+    .imgIconic{
+        width: 226px;
+        height: 250px;
+    }
+    .iconic{
+        width: 226px;
+        height: 250px;
+        margin-top: 12px;
+    }
+    /*---*/
+    .picturesConteiner{
+        display: grid;
+    }
+    .middleSpeaker{
+        margin-left: 15px;
+        justify-items: center;
+        display: grid;
+    }
+    .lastSpeaker{
+        display: grid;
+        margin-left: 30px;
+        align-self: flex-start;
+    }
+    .firstSpeaker{
+        display: grid;
+    }
+    /*----------------*/
+    .lianLastLogo{
+        display: grid;
+        justify-self: center;
+        justify-items: center;
+        margin-left: 0px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    /*---------------------footer--------------*/
+    
+    
+}
+
+
+@media(min-width: 1200px){
+    .conteinerHeader{
+        display: grid; 
+        grid-template-columns: 560px 520px 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .conteiner {
+        max-width: 1140px;
+    }
+    /*---pictures Conteiner----*/
+    .MainConteiner{
+        display: grid;
+        grid-template-columns: 340px 340px 340px;
+        padding-bottom: 35px;
+    }
+    /*---1---*/
+    .imgSabonete{
+        width: 340px;
+        height: 350px;
+    }
+    .sabonete{  
+        height: 350px;
+    }
+    .imgLamp{
+        width: 340px;
+        height: 250px;
+        margin-bottom: 32px;
+    }
+    .lamp{  
+        height: 250px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    .imgTableware{
+        width: 340px;
+        height: 450px;
+    }
+    .tableware{  
+        height: 450px;
+    }
+    /*---2---*/
+    .imgFurniture{
+        width: 340px;
+        height: 250px;
+        margin-bottom: 35px;
+    }
+    .furniture{ 
+        height: 250px;
+        width: 340px;
+        margin-bottom: 35px;
+    }
+    .imgTimer{
+        width: 340px;
+        height: 350px;
+    }
+    .timer{
+        width: 340px;
+        height: 350px; 
+        margin-bottom: 35px;
+    }
+    .imgArmchairs{
+        width: 340px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .armchairs{
+        width: 340px;
+        height: 250px; 
+    }
+    .imgClock{
+        width: 340px;
+        height: 350px;
+        margin-bottom: 35px;
+    }
+    .clock{
+        width: 340px;
+        height: 350px;
+        margin-top: 30px; 
+    }
+    /*---3---*/
+    .imgChairsAndTables{
+        width: 340px;
+        height: 450px;
+    }
+    .chairsAndTables{
+        width: 340px;
+        height: 450px;
+    }
+    .imgCorinne{
+        width: 340px;
+        height: 250px;
+        margin-bottom: 32px;
+    }
+    .corinne{
+        width: 340px;
+        height: 250px;
+        margin-top: 35px;
+    }
+    .imgIconic{
+        width: 340px;
+        height: 350px;
+    }
+    .iconic{
+        width: 340px;
+        height: 350px;
+        margin-top: 32px;
+    }
+    /*---*/
+    .middleSpeaker{
+        margin-left: 30px;
+        justify-items: center;
+        display: grid;
+    }
+    .lastSpeaker{
+        margin-left: 60px;
+    }
+    
+    
+}
